@@ -129,6 +129,9 @@
   <ItemGroup>
     <ClCompile Include="pointeurs_intelligents.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\test_unique_ptr\test_unique_ptr\pointeur_unique.hpp" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
