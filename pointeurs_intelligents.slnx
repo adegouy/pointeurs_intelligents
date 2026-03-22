@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="pointeurs_intelligents/pointeurs_intelligents.vcxproj" />
+  <Project Path="pointeurs_intelligents/pointeurs_intelligents.vcxproj" Id="892a44af-9bcf-4ca4-9837-48dda3c1c574" />
 </Solution>

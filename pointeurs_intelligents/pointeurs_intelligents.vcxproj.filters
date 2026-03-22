@@ -18,9 +18,12 @@
     <ClCompile Include="pointeurs_intelligents.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
+    <ClCompile Include="pointeur_partage.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\test_unique_ptr\test_unique_ptr\pointeur_unique.hpp">
+    <ClInclude Include="pointeur_unique.hpp">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
   </ItemGroup>

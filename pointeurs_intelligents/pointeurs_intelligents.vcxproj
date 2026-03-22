@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -128,9 +128,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="pointeurs_intelligents.cpp" />
+    <ClCompile Include="pointeur_partage.hpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\test_unique_ptr\test_unique_ptr\pointeur_unique.hpp" />
+    <ClInclude Include="pointeur_unique.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
